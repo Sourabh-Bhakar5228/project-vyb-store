@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Urbanist;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+.loginbutton_border {
+  backdrop-filter: blur(1px);
+}
+
+.loginbutton_border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(270deg, #ff5d5d, #4794ff);
+  background-clip: border-box;
+  mask: linear-gradient(#fff 0) padding-box, linear-gradient(#fff 0);
+  mask-composite: exclude !important;
+  z-index: -10;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.joinwaitlistbutton_border {
+  backdrop-filter: blur(1px);
+}
+
+.joinwaitlistbutton_border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(270deg, #ff5d5d, #4794ff);
+  background-clip: border-box;
+  mask: linear-gradient(#fff 0) padding-box, linear-gradient(#fff 0);
+  mask-composite: exclude !important;
+  z-index: -10;
+  border-radius: 18px;
+  border: 1px solid transparent;
+}
+
+.red_A200_blue_A200_01_border {
+  border-image: linear-gradient(270deg, #ff5d5d, #4794ff) 1;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  background-color: transparent;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.tab-panel--selected {
+  animation-name: tabPanel;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+@keyframes tabPanel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

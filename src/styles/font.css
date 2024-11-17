@@ -1,0 +1,77 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistMedium.ttf");
+  font-family: "Urbanist";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistBold.ttf");
+  font-family: "Urbanist";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistSemiBold.ttf");
+  font-family: "Urbanist";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistRomanRegular.ttf");
+  font-family: "Urbanist";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/InterBold.ttf");
+  font-family: "Inter";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/InterMedium.ttf");
+  font-family: "Inter";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistRomanBold.ttf");
+  font-family: "Urbanist";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/CaveatBrushRegular.ttf");
+  font-family: "Caveat Brush";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/UrbanistRomanSemiBold.ttf");
+  font-family: "Urbanist";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/MrBedfortRegular.ttf");
+  font-family: "Mr Bedfort";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/InterRegular.ttf");
+  font-family: "Inter";
+  font-weight: 400;
+}
